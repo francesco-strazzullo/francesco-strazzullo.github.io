@@ -1,0 +1,17 @@
+{
+  "name": "francesco-strazzullo.github.io",
+  "version": "1.0.0",
+  "description": "Personal Github Pages",
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francesco-strazzullo/francesco-strazzullo.github.io.git"
+  },
+  "author": "Francesco Strazzullo",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
