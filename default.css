@@ -162,37 +162,22 @@
 
 	#logo
 	{
-		padding: 2em 0em 2em 0em;
+		padding: 2em 0em;
+	}
+
+	#logo h1, #logo h3, #logo a {
+		color: #FFF;
+		text-decoration: none;
 	}
 	
 	#logo h1
 	{
-		display: block;
 		margin-bottom: 0.20em;
 		padding: 0.20em 0.9em;
 		font-size: 3.5em;
 	}
 	
-	#logo a
-	{
-		text-decoration: none;
-		color: #FFF;
-	}
 	
-	#logo span
-	{
-		text-transform: uppercase;
-		font-size: 2.90em;
-		color: rgba(255,255,255,1);
-	}
-
-	#logo span a
-	{
-		color: rgba(255,255,255,0.8);
-	}
-	
-	
-
 /*********************************************************************************/
 /* Menu                                                                          */
 /*********************************************************************************/
