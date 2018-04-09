@@ -54,6 +54,88 @@
 		width: 1200px;
 	}
 
+	#banner
+	{
+		padding-top: 5em;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+#header-wrapper
+{
+	overflow: hidden;
+	background: #2056ac;
+}
+
+#header-wrapper header
+{
+	text-align: center;
+}
+
+/*********************************************************************************/
+/* Main Title                                                                    */
+/*********************************************************************************/
+
+.main-title
+{
+	padding: 2em 0em;
+}
+
+.main-title h1, .main-title h3, .main-title a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.main-title h1
+{
+	margin-bottom: 0.20em;
+	padding: 0.20em 0.9em;
+	font-size: 3.5em;
+}
+
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+.menu
+{
+	height: 60px;
+}
+
+.menu ul
+{
+	display: inline-block;
+	padding: 0em 2em;
+	text-align: center;
+}
+
+.menu li
+{
+	display: inline-block;
+}
+
+.menu li a, .menu li span
+{
+	display: inline-block;
+	padding: 0em 1.5em;
+	text-decoration: none;
+	font-size: 0.90em;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 60px;
+	outline: 0;
+	color: #FFF;
+}
+
+.menu li:hover a, .menu li.active a, .menu li.active span
+{
+	background: #FFF;
+	border-radius: 7px 7px 0px 0px;
+	color: #2056ac;
+}
 
 /*********************************************************************************/
 /* Social Icon Styles                                                            */
@@ -140,94 +222,8 @@
 	{
 		font-size: 2.8em;
 	}
-
-/*********************************************************************************/
-/* Header                                                                        */
-/*********************************************************************************/
-
-	#header-wrapper
-	{
-		overflow: hidden;
-		background: #2056ac;
-	}
-
-	#header-wrapper header
-	{
-		text-align: center;
-	}
-
-/*********************************************************************************/
-/* Logo                                                                          */
-/*********************************************************************************/
-
-	#logo
-	{
-		padding: 2em 0em;
-	}
-
-	#logo h1, #logo h3, #logo a {
-		color: #FFF;
-		text-decoration: none;
-	}
-	
-	#logo h1
-	{
-		margin-bottom: 0.20em;
-		padding: 0.20em 0.9em;
-		font-size: 3.5em;
-	}
 	
 	
-/*********************************************************************************/
-/* Menu                                                                          */
-/*********************************************************************************/
-
-	#menu
-	{
-		height: 60px;
-	}
-	
-	#menu ul
-	{
-		display: inline-block;
-		padding: 0em 2em;
-		text-align: center;
-	}
-	
-	#menu li
-	{
-		display: inline-block;
-	}
-	
-	#menu li a, #menu li span
-	{
-		display: inline-block;
-		padding: 0em 1.5em;
-		text-decoration: none;
-		font-size: 0.90em;
-		font-weight: 600;
-		text-transform: uppercase;
-		line-height: 60px;
-		outline: 0;
-		color: #FFF;
-	}
-	
-	#menu li:hover a, #menu li.active a, #menu li.active span
-	{
-		background: #FFF;
-		border-radius: 7px 7px 0px 0px;
-		color: #2056ac;
-	}
-	
-
-/*********************************************************************************/
-/* Banner                                                                        */
-/*********************************************************************************/
-
-	#banner
-	{
-		padding-top: 5em;
-	}
 
 /*********************************************************************************/
 /* Wrapper                                                                       */
