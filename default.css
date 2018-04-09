@@ -400,14 +400,6 @@
 		color: #858585;
 	}
 
-	.videos {
-		padding-bottom: 50px;	
-	}
-
-	.videos h2 {
-		padding: 50px;
-	}
-
 	.workshops {
 		overflow: hidden;
 		padding: 50px 0em 0em 0em;
@@ -433,4 +425,19 @@
 
 	.workshop .links svg {
 		padding-right: 10px;
+	}
+
+	.videos {
+		overflow: hidden;
+		padding: 50px 0em 0em 0em;
+		text-align: center;
+	}
+
+	.video:not(:last-child){
+		padding-bottom: 50px;
+	}
+
+	.video:not(:first-child){
+		padding-top: 50px;	
+		border-top: 1px solid rgba(0,0,0,0.2);
 	}
