@@ -51,13 +51,24 @@
 	.container
 	{
 		margin: 0px auto;
-		width: 1200px;
+		width: 80%;
 	}
 
 	#banner
 	{
 		padding-top: 5em;
 	}
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+
+	@media (max-width: 767px) {                  
+		.hide-small {
+		   display: none;
+		}
+	 }
 
 /*********************************************************************************/
 /* Header                                                                        */
@@ -92,7 +103,7 @@
 {
 	margin-bottom: 0.20em;
 	padding: 0.20em 0.9em;
-	font-size: 3.5em;
+	font-size: 2em;
 }
 
 
@@ -223,7 +234,6 @@
 		font-size: 2.8em;
 	}
 	
-	
 
 /*********************************************************************************/
 /* Wrapper                                                                       */
@@ -243,8 +253,7 @@
 	#welcome
 	{
 		overflow: hidden;
-		width: 1000px;
-		padding: 6em 100px 0em 100px;
+		padding: 6em 0em 0em 0em;
 		text-align: center;
 	}
 	
@@ -336,6 +345,13 @@
 		text-align: center;
 		display: flex;
 	}
+
+	@media (max-width: 767px) {                  
+		#three-column {
+		   flex-direction: column;
+		}
+	 }
+
 	
 	#three-column h2
 	{
@@ -387,8 +403,19 @@
 		padding: 50px;
 	}
 
-	.workshop {
-		padding-bottom: 50px;	
+	.workshops {
+		overflow: hidden;
+		padding: 50px 0em 0em 0em;
+		text-align: center;
+	}
+
+	.workshop:not(:last-child){
+		padding-bottom: 50px;
+	}
+
+	.workshop:not(:first-child){
+		padding-top: 50px;	
+		border-top: 1px solid rgba(0,0,0,0.2);
 	}
 
 	.workshop h1 {
