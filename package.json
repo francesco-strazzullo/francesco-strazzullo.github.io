@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Personal Github Pages",
   "scripts": {
+    "predeploy": "npm run build-sass",
     "deploy": "node deploy",
-    "start": "http-server"
+    "start": "http-server & npm run sass",
+    "build-sass": "sass ./scss/index.scss ./app.css",
+    "sass": "nodemon -e scss -x \"npm run build-sass\""
   },
   "repository": {
     "type": "git",
@@ -14,6 +17,8 @@
   "license": "MIT",
   "devDependencies": {
     "ftp-deploy": "1.2.2",
-    "http-server": "0.11.1"
+    "http-server": "0.11.1",
+    "nodemon": "1.17.3",
+    "sass": "1.1.1"
   }
 }

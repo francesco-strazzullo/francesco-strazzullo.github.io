@@ -1,0 +1,31 @@
+.workshops-title {
+  text-align: center;
+  padding: 1em 0em 0em 0em;
+}
+
+.workshops {
+  overflow: hidden;
+  padding: 50px 0em 0em 0em;
+  text-align: center;
+  h3 {
+    padding-bottom: 50px;
+  }
+  .workshop {
+    &:not(:last-child) {
+      padding-bottom: 50px;
+    }
+    &:not(:first-child) {
+      padding-top: 50px;
+      border-top: 1px solid $lists-border-color;
+    }
+    .links {
+      svg {
+        padding-right: 10px;
+      }
+
+      .link {
+        padding: 20px 20px;
+      }
+    }
+  }
+}

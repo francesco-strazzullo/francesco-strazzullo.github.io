@@ -1,0 +1,20 @@
+body {
+  background: $primary-color;
+}
+
+.container {
+  margin: 0px auto;
+  width: 80%;
+}
+
+@media (max-width: 767px) {
+  .hide-small {
+    display: none;
+  }
+}
+
+.wrapper {
+  overflow: hidden;
+  padding: 0em 0em 5em 0em;
+  background: $wrapper-background;
+}

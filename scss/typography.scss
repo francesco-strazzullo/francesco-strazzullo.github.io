@@ -1,0 +1,23 @@
+body {
+  font-family: "Questrial", sans-serif;
+  font-size: 12pt;
+  color: $primary-text-color;
+}
+
+h1,
+h2,
+h3 {
+  color: $heading-primary-color;
+}
+
+p {
+  line-height: 180%;
+}
+
+a {
+  color: $primary-color;
+}
+
+a:hover {
+  text-decoration: none;
+}

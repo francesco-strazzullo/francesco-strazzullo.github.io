@@ -1,0 +1,39 @@
+#banner {
+  padding-top: 5em;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  main {
+    flex-direction: column;
+  }
+}
+
+main {
+  overflow: hidden;
+  margin-top: 5em;
+  padding-top: 1em;
+  border-top: $home-main-border-size solid $home-main-border-color;
+  text-align: center;
+  display: flex;
+  h2 {
+    margin: 1em 0em;
+    font-size: $home-main-title-size;
+    font-weight: 700;
+  }
+  svg.svg-inline--fa{
+    margin: 0px auto 0.8em auto;
+    background: none;
+    font-size: $home-main-icon-size;
+  }
+  .box {
+    flex: 1;
+    padding: 80px 40px 80px 40px;
+    p {
+      height: 115px;
+    }
+  }
+}

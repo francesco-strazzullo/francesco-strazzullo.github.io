@@ -1,0 +1,31 @@
+.menu {
+  height: 60px;
+
+  ul {
+    display: inline-block;
+    padding: 0em 2em;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      a,
+      span {
+        display: inline-block;
+        padding: 0em 1.5em;
+        text-decoration: none;
+        font-size: 0.9em;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 60px;
+        outline: 0;
+        color: $title-color;
+      }
+      &.active a,
+      &:hover a {
+        background: $secondary-color;
+        border-radius: 7px 7px 0px 0px;
+        color: $primary-color;
+      }
+    }
+  }
+}
