@@ -2,13 +2,16 @@
   display: inline-block;
   margin-top: 2em;
   padding: 0.8em 2em;
-  background: #64abd1;
   line-height: 1.8em;
   letter-spacing: 1px;
   text-decoration: none;
   font-size: 1em;
   color: #fff;
+  text-transform: uppercase; 
+  background: #2056ac; 
+  border-radius: 7px; 
+  width:60%;
   &:hover {
-    background:#badcee;
+    background:#ccc;
   }
 }

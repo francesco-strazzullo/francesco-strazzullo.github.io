@@ -1,6 +1,6 @@
 #footer {
   overflow: hidden;
-  padding: 5em 0em;
+  padding: 1.5em 0em;
   background: $footer-background-color;
   text-align: center;
   display: flex;
@@ -14,10 +14,11 @@
 
 #copyright {
   overflow: hidden;
-  padding: 5em 0em;
+  padding: .5em 0em;
   border-top: $copyright-border-width solid $copyright-border-color;
   text-align: center;
   p,a {
+    font-size: .7em;
     letter-spacing: 1px;
     font-size: 0.9em;
     color: $copyright-color;
@@ -27,7 +28,7 @@
   }
   ul.contact {
     margin: 0;
-    padding: 2em 0em 0em 0em;
+    padding: 0em 0em 3em;
     list-style: none;
     li {
       display: inline-block;

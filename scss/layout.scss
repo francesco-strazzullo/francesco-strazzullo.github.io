@@ -3,8 +3,7 @@ body {
 }
 
 .container {
-  margin: 0px auto;
-  width: 80%;
+  margin: 0em auto;
 }
 
 @media (max-width: 767px) {
@@ -15,6 +14,6 @@ body {
 
 .wrapper {
   overflow: hidden;
-  padding: 0em 0em 5em 0em;
+  padding: .5em 0em 5em 0em;
   background: $wrapper-background;
 }

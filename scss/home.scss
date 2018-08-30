@@ -13,8 +13,9 @@
 }
 
 main {
+  width: 80%;
+  margin: 2em auto 0;
   overflow: hidden;
-  margin-top: 5em;
   padding-top: 1em;
   border-top: $home-main-border-size solid $home-main-border-color;
   text-align: center;
@@ -25,15 +26,12 @@ main {
     font-weight: 700;
   }
   svg.svg-inline--fa{
-    margin: 0px auto 0.8em auto;
+    margin: 0px auto .2em auto;
     background: none;
     font-size: $home-main-icon-size;
   }
   .box {
     flex: 1;
-    padding: 80px 40px 80px 40px;
-    p {
-      height: 115px;
-    }
+    padding: 40px;
   }
 }
