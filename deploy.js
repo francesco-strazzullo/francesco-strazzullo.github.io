@@ -7,7 +7,7 @@ const config = {
     password,
     host: "ftp.francescostrazzullo.info",
     port: 21,
-    localRoot: __dirname,
+    localRoot: 'public',
     remoteRoot: "/www.francescostrazzullo.info",
     exclude: ['.git', 'node_modules', 'deploy.js']
 }
