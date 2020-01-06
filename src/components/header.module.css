@@ -1,0 +1,42 @@
+.header {
+    padding-top: 48px;
+    padding-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.header__title{
+    margin-left: 32px;
+    margin-right: 124px;
+}
+
+.header__menu__item {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    text-transform: lowercase;
+    color: var(--color-dark);
+    padding-right: 32px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 36px;
+    width: 160px;
+}
+
+.header__social {
+    margin-bottom: 34px;
+    padding-left: 24px;
+    background-color: var(--color-primary);
+    width: 140px;
+    height: 40px;
+}
+
+.header__social__list {
+    list-style: none;
+    
+}
+
+.header__social__list__item {
+    display: inline-block;
+    width: 36px;
+}

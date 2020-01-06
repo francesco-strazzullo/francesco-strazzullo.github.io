@@ -1,3 +1,11 @@
+/* 
+font import
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:700,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,700&display=swap');
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
     v2.0 | 20110126
     License: none (public domain)
@@ -45,4 +53,27 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+/* global fonts */
+
+h1, h2, h3, h4, h5, h6, button {
+	font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+/* global variables */
+
+:root {
+	--color-gray1: #E7E9E9;
+	--color-gray2: #929395;
+	--color-gray3: #6E7073;
+	--color-gray4: #3B3F43;
+	--color-light: #fff;
+	--color-dark: #000;
+	--color-primary: #02579B;
+	--color-dark-primary: #013863;
 }
