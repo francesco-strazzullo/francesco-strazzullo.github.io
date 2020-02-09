@@ -1,0 +1,28 @@
+.section {
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 28px;
+    margin-top: 48px;
+    width: 100%;
+    clear: both;
+    display: flex;
+}
+
+.section__body {
+    max-width: 720px;
+    margin-left: 136px;
+    display: inline-block;
+    flex: 1 1;
+}
+
+.section__body__withsidebar {
+    margin-left: 0px;
+}
+
+.section__sidebar {
+    width: 248px;
+    display: inline-block;
+    margin-right: 48px;
+    flex: none;
+}
