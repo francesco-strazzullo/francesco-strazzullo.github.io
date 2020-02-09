@@ -1,0 +1,19 @@
+.hero {
+    position: relative;
+}
+
+.hero__title {
+    position: absolute;
+    font-size: 80px;
+    letter-spacing: 1.5;
+    font-weight: bold;
+    top: 40px;
+    right: 32px;
+    max-width: 720px;
+    left: 440px;
+}
+
+.hero__figure {
+    width: 82%;
+    max-width: 738px;
+}

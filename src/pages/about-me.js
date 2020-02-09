@@ -3,14 +3,14 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HeaderImage from "../components/images/homeHeaderImage"
+import Hero from "../components/hero"
 
 const SecondPage = () => (
   <Layout>
     <SEO title="about me" />
-    <div>
-      <HeaderImage />
-      <h2>Lorem Ipsum</h2>
-    </div>
+
+    <Hero title={"Speaker, Trainer and Frontend Engineer"} img={<HeaderImage />} />
+
 
     <section>
       <h3>Lorem ipsum dolor sit amet, consectetur adipisci elit</h3>

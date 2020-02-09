@@ -12,7 +12,7 @@ const Button = ({ label, onClickCallback, Icon }) => (
 Button.propTypes = {
     label: PropTypes.string,
     onClickCallback: PropTypes.func,
-    Icon: PropTypes.node
+    Icon: PropTypes.any
 }
 
 export default Button;

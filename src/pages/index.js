@@ -3,15 +3,13 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import HeaderImage from "../components/images/homeHeaderImage"
+import Hero from "../components/hero"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div>
-      <HeaderImage />
-      <h2>Speaker, Trainer and Frontend Engineer</h2>
-    </div>
+    <Hero title={"Speaker, Trainer and Frontend Engineer"} img={<HeaderImage />} />
 
     <div>
       <h3>Worskshops</h3>
