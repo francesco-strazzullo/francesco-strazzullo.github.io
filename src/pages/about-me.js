@@ -5,12 +5,17 @@ import SEO from "../components/seo"
 import HeaderImage from "../components/images/homeHeaderImage"
 import Hero from "../components/hero"
 import Section from "../components/Section"
+import Button from "../components/button"
 
 const SecondPage = () => (
   <Layout>
     <SEO title="about me" />
 
     <Hero title={"Speaker, Trainer and Frontend Engineer"} img={<HeaderImage />} />
+
+    <Button label="contact me" onClickCallback={() => {
+      window.location.href = "mailto:francesco.strazzullo86@gmail.com"
+    }}/>
 
     <Section hasSidebar={false}>
       <h3>Lorem ipsum dolor sit amet, consectetur adipisci elit</h3>
