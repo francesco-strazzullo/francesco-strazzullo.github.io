@@ -2,8 +2,8 @@ import React from "react";
 import PropTypes from "prop-types"
 import styles from "./button.module.css"
 
-const Button = ({ label, onClickCallback, Icon }) => (
-    <button className={styles.button} onClick={onClickCallback}>
+const Button = ({ label, onClickCallback, Icon, isClear = false }) => (
+    <button className={isClear ? `${styles.button} ${styles.button__clear}` : `${styles.button}`} onClick={onClickCallback}>
         {Icon && <Icon />}
         {label}
     </button>

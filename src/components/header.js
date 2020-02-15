@@ -46,7 +46,7 @@ class Header extends Component {
     return (<Container>
       <header className={styles.header}>
         <div className={styles.header__menu__toggler}>
-          <Button label="menu" onClickCallback={this.toggleMenu} />
+          <Button label="menu" onClickCallback={this.toggleMenu} isClear={true} />
         </div>
         <div className={styles.header__title}>
           <h1>

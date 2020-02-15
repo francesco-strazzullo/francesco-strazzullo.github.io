@@ -20,6 +20,11 @@
     align-items: center;
 }
 
+.button__clear {
+    background-color: var(--color-light);
+    color:  var(--color-dark);
+}
+
 .button:hover {
     background: var(--color-primary);
     color: var(--color-dark-primary);
