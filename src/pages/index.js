@@ -54,8 +54,8 @@ const IndexPage = () => (
     </Section>
 
     <Section hasSidebar={true} sidebar={
-      <div style={{height: "350px", position: "relative"}}>
-        <div style={{bottom: "0px", right: "0px", position: "absolute", height: "260px", width: "248px"}}>
+      <div className="display-desktop" style={{height: "350px", position: "relative"}}>
+        <div style={{bottom: "0px", left: "0px", position: "absolute", height: "260px", width: "248px"}}>
           <StrazzImage />
         </div>
       </div>}>

@@ -112,3 +112,22 @@ a {
 	--color-primary: #02579B;
 	--color-dark-primary: #013863;
 }
+
+
+.display-desktop {
+    display: block;
+}
+
+.display-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1025px) {
+	.display-desktop {
+		display: none;
+	}
+	
+	.display-mobile {
+		display: block;
+	}
+}

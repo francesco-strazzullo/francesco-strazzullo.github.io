@@ -4,12 +4,12 @@ import styles from "./section.module.css"
 
 const Section = ({ sidebar, hasSidebar, children }) => (
     <div className={styles.section}>
-        {hasSidebar && <div className={styles.section__sidebar}>
-            {sidebar}
-        </div>}
         <div className={`${styles.section__body} ${hasSidebar && styles.section__body__withsidebar}`}>
             {children}
         </div>
+        {hasSidebar && <div className={styles.section__sidebar}>
+            {sidebar}
+        </div>}
     </div>
 );
 

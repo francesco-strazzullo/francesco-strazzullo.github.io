@@ -17,3 +17,25 @@
     width: 82%;
     max-width: 738px;
 }
+
+@media screen and (max-width: 1025px) {
+    .hero__title {
+        left: 248px;
+        right: 24px;
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero__figure {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .hero__title {
+        position: static;
+        display: block;
+        margin: 24px;
+        font-size: 48px;
+    }
+}

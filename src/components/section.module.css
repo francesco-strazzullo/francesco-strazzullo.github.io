@@ -14,6 +14,7 @@
     margin-left: 136px;
     display: inline-block;
     flex: 1 1;
+    order: 2;
 }
 
 .section__body__withsidebar {
@@ -25,4 +26,27 @@
     display: inline-block;
     margin-right: 48px;
     flex: none;
+    order: 1;
+}
+
+@media screen and (max-width: 1025px) {
+    .section {
+        display: block;
+    }
+    .section__body {
+        flex: none;
+        margin-left: 24px;
+        display: block;
+    }
+    .section__sidebar {
+        width: auto;
+        margin-right: 0;
+        margin-left: 24px;
+        margin-bottom: 24px;
+        display: inline-block;
+    }
+
+    .section__body__withsidebar {
+        margin-left: 24px;
+    }
 }
