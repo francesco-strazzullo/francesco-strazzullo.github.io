@@ -18,9 +18,6 @@ const menu = [{
 }, {
   label: 'book',
   slug: '/book'
-}, {
-  label: 'about me',
-  slug: '/about-me'
 }]
 
 class Header extends Component {
@@ -51,14 +48,15 @@ class Header extends Component {
           <h1>
             <Link
               alt={siteTitle}
-              to='/'>
+              to='/'
+            >
               <StrazzLogoIcon alt={siteTitle} />
             </Link>
           </h1>
         </div>
         <div className={hasMenuOpen ? `${styles.header__menu__toggled} ${styles.header__menu}` : `${styles.header__menu}`}>
           {menu.map(menuItem => {
-            return <Link className={styles.header__menu__item} key={menuItem.slug} to={menuItem.slug} >{menuItem.label}</Link>
+            return <Link className={styles.header__menu__item} key={menuItem.slug} to={menuItem.slug}>{menuItem.label}</Link>
           })}
         </div>
       </header>
@@ -81,7 +79,7 @@ class Header extends Component {
           </li>
         </ul>
       </div>
-    </Container>)
+            </Container>)
   }
 }
 
@@ -90,7 +88,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: ``
+  siteTitle: ''
 }
 
 export default Header

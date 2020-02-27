@@ -10,7 +10,7 @@ const Workshops = () => (
   <Layout>
     <Seo title='workshops' />
 
-    <Hero title='Speaker, Trainer and Software Engineer' img={<HeaderImage />} />
+    <Hero title='Workshops' img={<HeaderImage />} />
 
     <Section hasSidebar={false}>
       <p>This is a list of my workshops. If you want to any information about a workshop feel free to <a href='mailto:francesco.strazzullo86@gmail.com'>contact</a> me.</p>
@@ -47,6 +47,43 @@ const Workshops = () => (
         <li>Tradeoff Slider</li>
         <li>Framework Compass Chart</li>
         <li>Architectural Clash</li>
+      </ul>
+    </Section>
+
+    <Section hasSidebar={false} id='decision-making'>
+      <h3>Decision-making for critical software decisions</h3>
+      <p>
+        During this workshop, I will help your team to analyze different kinds of decisions that they will need to tackle during their day-by-day job. We will also define some useful workflow for the most important decisions that a team has to address.
+      </p>
+      <p>
+        We will understand what is the meaning of "Non-functional requirements" and how they are a very important factor to define the context in which the software product "lives".
+      </p>
+      <p>
+        At last, we will cover how to put these decisions in motion in a reversible way. Your team should make sure that the decisions that they make today will not become roadblocks in the future.
+      </p>
+      <h4>Why is it important?</h4>
+      <p>
+        To make mindful decisions is a skill that has become crucial for any software development team. Nevertheless, is often an underrated skill that is not trained enough.
+      </p>
+      <p>
+        Every day teams face technological and methodological choices like <i>"Is microservices the right architecture at this moment?"</i> or <i>"What kind of tests should I write for this feature?"</i>. Making these decisions "blindly" without any kind of collaborative process could be a very bad approach.
+      </p>
+      <h4>Schedule</h4>
+      <h6>Day 1</h6>
+      <ul>
+        <li>Let's classify decisions</li>
+        <li>Explore <i>Identity</i></li>
+        <li>Explore <i>Market</i></li>
+        <li>Explore <i>Value</i></li>
+        <li>Explore <i>Context</i></li>
+      </ul>
+      <br />
+      <h6>Day 2</h6>
+      <ul>
+        <li>Let's classify decision-making tools</li>
+        <li>Design reversible architectures</li>
+        <li>How to communicate architectural decisions</li>
+        <li>Using experiments to work in complex ecosystems</li>
       </ul>
     </Section>
   </Layout>

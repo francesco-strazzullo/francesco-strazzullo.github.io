@@ -19,20 +19,18 @@ const IndexPage = () => (
 
       <ul>
         <li><Link to='/workshops/#frameworkless'>Frameworkless Frontend Development</Link></li>
-        <li><Link to='/workshop'>Decision-making for critical software decisions</Link></li>
+        <li><Link to='/workshops/#decision-making'>Decision-making for critical software decisions</Link></li>
       </ul>
     </Section>
 
     <Section hasSidebar>
       <h3>Videos</h3>
-      <p>I really love</p>
+      <p>I love to share some thoughts with other developers at conferences or meetup. These are some of my latest videos.</p>
 
       <ul>
-        <li><Link to='/workshop'>Frameworkless Frontend Development</Link></li>
-        <li><Link to='/workshop'>Frameworkless Frontend Development</Link></li>
-        <li><Link to='/workshop'>Frameworkless Frontend Development</Link></li>
-        <li><Link to='/workshop'>Frameworkless Frontend Development</Link></li>
-        <li><Link to='/workshop'>Frameworkless Frontend Development</Link></li>
+        <li><Link to='/videos/#tdd'>Strategic TDD</Link></li>
+        <li><Link to='/videos/#engine'>A DIY guide to building your own Rendering Engine</Link></li>
+        <li><Link to='/videos/#chart'>Framework Compass Chart</Link></li>
       </ul>
     </Section>
 

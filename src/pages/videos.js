@@ -14,21 +14,21 @@ const SecondPage = () => (
     </Section>
 
     <Section hasSidebar={false}>
-      <h3>TestCon 2019: Strategic TDD</h3>
+      <h3 id='tdd'>TestCon 2019: Strategic TDD</h3>
       <IframeContainer>
         <iframe title='Strategic TDD' src='https://www.youtube.com/embed/q7bw-P7qgGA' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen />
       </IframeContainer>
     </Section>
 
     <Section hasSidebar={false}>
-      <h3>jsday 2019: A DIY guide to building your own Rendering Engine</h3>
+      <h3 id='engine'>jsday 2019: A DIY guide to building your own Rendering Engine</h3>
       <IframeContainer>
         <iframe title='A DIY guide to building your own Rendering Engine' src='https://www.youtube.com/embed/T9x7Bkpw4hg' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen />
       </IframeContainer>
     </Section>
 
     <Section hasSidebar={false}>
-      <h3>ViennaJS Semptermber 2018: Framework Compass Chart</h3>
+      <h3 id='chart'>ViennaJS Semptermber 2018: Framework Compass Chart</h3>
       <IframeContainer>
         <iframe title='Framework Compass Chart' src='https://www.youtube.com/embed/buFMbKRAUs8' frameBorder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowFullScreen />
       </IframeContainer>
