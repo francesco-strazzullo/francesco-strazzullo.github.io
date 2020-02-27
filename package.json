@@ -1,10 +1,10 @@
 {
   "name": "francesco-strazzullo.github.io",
   "version": "1.0.0",
-  "description": "Personal Github Pages",  
+  "description": "Personal Github Pages",
   "author": "Francesco Strazzullo",
   "dependencies": {
-    "gatsby": "^2.17.11",
+    "gatsby": "^2.19.22",
     "gatsby-image": "^2.2.31",
     "gatsby-plugin-manifest": "^2.2.27",
     "gatsby-plugin-offline": "^3.0.19",
@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "ftp-deploy": "1.2.2",
-    "prettier": "^1.19.1"
+    "standard": "^14.3.1"
   },
   "keywords": [
     "gatsby"
