@@ -1,18 +1,18 @@
-import React from "react"
+import React from 'react'
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Section from "../components/Section"
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import Section from '../components/Section'
 
 const SecondPage = () => (
   <Layout>
 
-    <SEO title="book" />
+    <SEO title='book' />
 
     <Section hasSidebar={false}>
       <h2>Book</h2>
     </Section>
-    
+
     <Section hasSidebar={false}>
       <h3>Lorem ipsum dolor sit amet, consectetur adipisci elit</h3>
       <p>
