@@ -36,17 +36,17 @@ const SecondPage = () => (
 
     <Section hasSidebar={false}>
       <h5>Chapter 1: Let’s Talk AboutFrameworks</h5>
-      <p>This chapter covers the meaning of Frameworks and the <i>hidden</i> cost that usually team don't see.</p>
+      <p>The meaning of Frameworks and the <i>hidden</i> cost that usually team don't see.</p>
     </Section>
 
     <Section hasSidebar={false}>
       <h5>Chapter 2: Rendering</h5>
-      <p>In this chapter, I explain how to create a rendering engine from scratch, starting from extremely simple DOM manipulation functions to a complete virtual DOM algorithm.</p>
+      <p>How to create a rendering engine from scratch, starting from extremely simple DOM manipulation functions to a complete virtual DOM algorithm.</p>
     </Section>
 
     <Section hasSidebar={false}>
       <h5>Chapter 3: Managing DOM Events</h5>
-      <p>This chapter shows some useful techniques to easily manage DOM Events.</p>
+      <p>Some useful techniques to easily manage DOM Events.</p>
     </Section>
 
     <Section hasSidebar={false}>
@@ -56,12 +56,12 @@ const SecondPage = () => (
 
     <Section hasSidebar={false}>
       <h5>Chapter 5: HTTP Requests</h5>
-      <p>This chapter covers different ways to make an HTTP request and managing its results.</p>
+      <p>Different ways to make an HTTP request and managing its results.</p>
     </Section>
 
     <Section hasSidebar={false}>
       <h5>Chapter 6: Routing</h5>
-      <p>In this chapter, you will learn how to create a simple routing library, using fragment identifiers or real paths.</p>
+      <p>How to create a simple routing library, using fragment identifiers or real paths.</p>
     </Section>
 
     <Section hasSidebar={false}>
@@ -71,7 +71,7 @@ const SecondPage = () => (
 
     <Section hasSidebar={false}>
       <h5>Chapter 8: The Right Tool For The Right Job</h5>
-      <p>This chapter covers some decision-making tools useful when you need to choose a new framework or library</p>
+      <p>Decision-making tools useful when you need to choose a new framework or library</p>
     </Section>
 
   </Layout>

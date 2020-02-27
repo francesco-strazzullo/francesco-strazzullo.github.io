@@ -8,6 +8,7 @@ const config = {
   host: 'ftp.francescostrazzullo.info',
   port: 21,
   localRoot: 'public',
+  deleteRemote: true,
   remoteRoot: '/www.francescostrazzullo.info',
   exclude: ['.git', 'node_modules', 'deploy.js']
 }
@@ -19,4 +20,14 @@ ftpDeploy.deploy(config, err => {
   } else {
     console.log('finished')
   }
+})
+
+ftpDeploy.on('uploading', function (data) {
+  const { filename } = data
+  console.log(`Uploading ${filename}`)
+})
+
+ftpDeploy.on('uploaded', function (data) {
+  const { filename } = data
+  console.log(`Uploaded ${filename}`)
 })

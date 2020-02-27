@@ -113,6 +113,15 @@ a {
 	--color-dark-primary: #013863;
 }
 
+h3.workshop-title {
+	text-decoration: underline;
+	font-weight: bolder;
+}
+
+p.workshop-schedule-title {
+	text-decoration: underline;
+	font-weight: bolder;
+}
 
 .display-desktop {
     display: block;
