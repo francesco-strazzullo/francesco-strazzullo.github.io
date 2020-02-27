@@ -1,43 +1,57 @@
 import React from 'react'
 
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import Section from '../components/Section'
 import IframeContainer from '../components/iframeContainer'
 
 const SecondPage = () => (
   <Layout>
-    <SEO title='videos' />
+    <Seo title='videos' />
 
     <Section hasSidebar={false}>
       <h2>Videos</h2>
     </Section>
 
     <Section hasSidebar={false}>
-      <h3>ViennaJS Semptermber 2018: Framework Compass Chart</h3>
+      <h3>TestCon 2019: Strategic TDD</h3>
       <IframeContainer>
-        <iframe title='video1' src='https://www.youtube.com/embed/buFMbKRAUs8' frameBorder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowFullScreen />
+        <iframe title='Strategic TDD' src='https://www.youtube.com/embed/q7bw-P7qgGA' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen />
+      </IframeContainer>
+    </Section>
+
+    <Section hasSidebar={false}>
+      <h3>jsday 2019: A DIY guide to building your own Rendering Engine</h3>
+      <IframeContainer>
+        <iframe title='A DIY guide to building your own Rendering Engine' src='https://www.youtube.com/embed/T9x7Bkpw4hg' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen />
       </IframeContainer>
     </Section>
 
     <Section hasSidebar={false}>
       <h3>ViennaJS Semptermber 2018: Framework Compass Chart</h3>
       <IframeContainer>
-        <iframe title='video2' src='https://www.youtube.com/embed/buFMbKRAUs8' frameBorder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowFullScreen />
+        <iframe title='Framework Compass Chart' src='https://www.youtube.com/embed/buFMbKRAUs8' frameBorder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowFullScreen />
       </IframeContainer>
     </Section>
 
     <Section hasSidebar={false}>
-      <h3>ViennaJS Semptermber 2018: Framework Compass Chart</h3>
+      <h3>jsday 2018: StranglerApplication pattern: a legacy frontend use case</h3>
       <IframeContainer>
-        <iframe title='video3' src='https://www.youtube.com/embed/buFMbKRAUs8' frameBorder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowFullScreen />
+        <iframe title='StranglerApplication pattern: a legacy frontend use case' src='https://www.youtube.com/embed/cTSoFvAUUF8' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen />
       </IframeContainer>
     </Section>
 
     <Section hasSidebar={false}>
-      <h3>ViennaJS Semptermber 2018: Framework Compass Chart</h3>
+      <h3>RuhrJS 2016: Sacrificial Architecture in modern web development</h3>
       <IframeContainer>
-        <iframe title='video4' src='https://www.youtube.com/embed/buFMbKRAUs8' frameBorder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowFullScreen />
+        <iframe title='Sacrificial Architecture in modern web development' src='https://www.youtube.com/embed/Q2vqjQdw6jU' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen />
+      </IframeContainer>
+    </Section>
+
+    <Section hasSidebar={false}>
+      <h3>ReactJS Day 2016: Stay Reactive with MobX</h3>
+      <IframeContainer>
+        <iframe title='Stay Reactive with MobX' src='https://www.youtube.com/embed/z0O2LDdcH1A' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen />
       </IframeContainer>
     </Section>
 

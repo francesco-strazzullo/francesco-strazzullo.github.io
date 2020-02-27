@@ -11,7 +11,7 @@ import SEO from '../components/seo'
 const IndexPage = () => (
   <Layout>
     <SEO title='Home' />
-    <Hero title={'Speaker, Trainer and Frontend Engineer'} img={<HeaderImage />} />
+    <Hero title='Speaker, Trainer and Frontend Engineer' img={<HeaderImage />} />
 
     <Section hasSidebar>
       <h3>Worskshops</h3>
@@ -39,8 +39,11 @@ const IndexPage = () => (
       </ul>
     </Section>
 
-    <Section hasSidebar sidebar={
-      <div style={{ textAlign: 'right', marginTop: '58px', width: '100%' }}><BookImage /></div>}>
+    <Section
+      hasSidebar sidebar={
+        <div style={{ textAlign: 'right', marginTop: '58px', width: '100%' }}><BookImage /></div>
+      }
+    >
       <h3>Book</h3>
       <p>I'm a trainer that helps organizations to learn new tools and techinique. You can check my workshops in the link below.</p>
 
@@ -53,12 +56,15 @@ const IndexPage = () => (
       </ul>
     </Section>
 
-    <Section hasSidebar sidebar={
-      <div className='display-desktop' style={{ height: '350px', position: 'relative' }}>
-        <div style={{ bottom: '0px', left: '0px', position: 'absolute', height: '260px', width: '248px' }}>
-          <StrazzImage />
+    <Section
+      hasSidebar sidebar={
+        <div className='display-desktop' style={{ height: '350px', position: 'relative' }}>
+          <div style={{ bottom: '0px', left: '0px', position: 'absolute', height: '260px', width: '248px' }}>
+            <StrazzImage />
+          </div>
         </div>
-      </div>}>
+      }
+    >
       <h3>Book</h3>
       <p>I'm a trainer that helps organizations to learn new tools and techinique. You can check my workshops in the link below.</p>
 
