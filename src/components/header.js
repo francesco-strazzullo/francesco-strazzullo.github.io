@@ -13,8 +13,8 @@ const menu = [{
   label: 'workshops',
   slug: '/workshops'
 }, {
-  label: 'videos',
-  slug: '/videos'
+  label: 'talks',
+  slug: '/talks'
 }, {
   label: 'book',
   slug: '/book'
@@ -79,7 +79,7 @@ class Header extends Component {
           </li>
         </ul>
       </div>
-            </Container>)
+    </Container>)
   }
 }
 

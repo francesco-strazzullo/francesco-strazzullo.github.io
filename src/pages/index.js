@@ -24,13 +24,13 @@ const IndexPage = () => (
     </Section>
 
     <Section hasSidebar>
-      <h3>Videos</h3>
-      <p>I love to share some thoughts with other developers at conferences or meetup. These are some of my latest videos.</p>
+      <h3>Talks</h3>
+      <p>I love to share some thoughts with other developers at conferences or meetup. These are some of my latest talks.</p>
 
       <ul>
-        <li><Link to='/videos/#tdd'>Strategic TDD</Link></li>
-        <li><Link to='/videos/#engine'>A DIY guide to building your own Rendering Engine</Link></li>
-        <li><Link to='/videos/#chart'>Framework Compass Chart</Link></li>
+        <li><Link to='/talks/#tdd'>Strategic TDD</Link></li>
+        <li><Link to='/talks/#engine'>A DIY guide to building your own Rendering Engine</Link></li>
+        <li><Link to='/talks/#chart'>Framework Compass Chart</Link></li>
       </ul>
     </Section>
 

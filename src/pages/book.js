@@ -1,17 +1,23 @@
 import React from 'react'
 
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
+import HiResBookImage from '../components/images/HiResBookImage'
+import Hero from '../components/hero'
 import Section from '../components/Section'
 
+const PhotoCredit = () => (
+  <span style={{ float: 'right' }}>
+  Photo by <a href='https://unsplash.com/@beatriz_perez'>Beatriz Pérez Moya</a> on <a href='https://unsplash.com/'>Unsplash</a>
+  </span>
+)
+
 const SecondPage = () => (
-  <Layout>
+  <Layout PhotoCredit={PhotoCredit}>
 
-    <SEO title='book' />
+    <Seo title='book' />
 
-    <Section hasSidebar={false}>
-      <h2>Book</h2>
-    </Section>
+    <Hero title='Book' img={<HiResBookImage />} />
 
     <Section hasSidebar={false}>
       <h3>Lorem ipsum dolor sit amet, consectetur adipisci elit</h3>

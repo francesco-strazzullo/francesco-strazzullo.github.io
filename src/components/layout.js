@@ -6,7 +6,7 @@ import Footer from './footer'
 import Header from './header'
 import './layout.css'
 
-const Layout = ({ children }) => {
+const Layout = ({ children, PhotoCredit = () => null }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -26,6 +26,7 @@ const Layout = ({ children }) => {
         </Container>
         <Footer>
           © {new Date().getFullYear()} Francesco Strazzullo. All rights reserved. Email: <a href='mailto:francesco.strazzullo86@gmail.com' target='_black'>francesco.strazzullo86@gmail.com</a>
+          <PhotoCredit />
         </Footer>
       </div>
     </>

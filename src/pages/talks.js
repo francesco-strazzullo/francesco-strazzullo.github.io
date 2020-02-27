@@ -4,14 +4,20 @@ import Layout from '../components/layout'
 import Seo from '../components/seo'
 import Section from '../components/Section'
 import IframeContainer from '../components/iframeContainer'
+import TalksImage from '../components/images/TalksImage'
+import Hero from '../components/hero'
+
+const PhotoCredit = () => (
+  <span style={{ float: 'right' }}>
+  Photo by <a href='https://unsplash.com/@tylercallahan'>Tyler Callahan</a> on <a href='https://unsplash.com/'>Unsplash</a>
+  </span>
+)
 
 const SecondPage = () => (
-  <Layout>
-    <Seo title='videos' />
+  <Layout PhotoCredit={PhotoCredit}>
+    <Seo title='Talks' />
 
-    <Section hasSidebar={false}>
-      <h2>Videos</h2>
-    </Section>
+    <Hero title='Talks' img={<TalksImage />} />
 
     <Section hasSidebar={false}>
       <h3 id='tdd'>TestCon 2019: Strategic TDD</h3>

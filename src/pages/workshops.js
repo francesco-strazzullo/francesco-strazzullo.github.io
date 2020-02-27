@@ -6,8 +6,14 @@ import HeaderImage from '../components/images/workshopsHeaderImage'
 import Hero from '../components/hero'
 import Section from '../components/Section'
 
+const PhotoCredit = () => (
+  <span style={{ float: 'right' }}>
+  Photo by <a href='https://unsplash.com/@williamdaigneault'>William Daigneault</a> on <a href='https://unsplash.com/'>Unsplash</a>
+  </span>
+)
+
 const Workshops = () => (
-  <Layout>
+  <Layout PhotoCredit={PhotoCredit}>
     <Seo title='workshops' />
 
     <Hero title='Workshops' img={<HeaderImage />} />
