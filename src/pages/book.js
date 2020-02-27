@@ -5,6 +5,7 @@ import Seo from '../components/seo'
 import HiResBookImage from '../components/images/HiResBookImage'
 import Hero from '../components/hero'
 import Section from '../components/Section'
+import BookImage from '../components/images/bookImage'
 
 const PhotoCredit = () => (
   <span style={{ float: 'right' }}>
@@ -20,33 +21,57 @@ const SecondPage = () => (
     <Hero title='Book' img={<HiResBookImage />} />
 
     <Section hasSidebar={false}>
-      <h3>Lorem ipsum dolor sit amet, consectetur adipisci elit</h3>
+      <h2>Frameworkless Front-end Development</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisci <strong>elit</strong>, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur. Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        I published my first book "Frameworkless Front-end Development" with <a href='https://www.apress.com/it/book/9781484249666'>Apress</a>. This book is about working efficiently without frameworks and choosing the right tool following the principles of the <a href='https://github.com/frameworkless-movement/manifesto'>Frameworkless Manifesto</a>.
       </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do <strong>eiusmod tempor incidunt ut labore et dolore magna aliqua</strong>. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur. Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-    </Section>
-
-    <Section hasSidebar={false}>
-      <h3>Lorem ipsum dolor sit amet, consectetur adipisci elit</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisci <strong>elit</strong>, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur. Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do <strong>eiusmod tempor incidunt ut labore et dolore magna aliqua</strong>. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur. Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <p style={{ textAlign: 'center', marginTop: '15px' }}>
+        <BookImage />
       </p>
     </Section>
 
     <Section hasSidebar={false}>
-      <h3>Lorem ipsum dolor sit amet, consectetur adipisci elit</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisci <strong>elit</strong>, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur. Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do <strong>eiusmod tempor incidunt ut labore et dolore magna aliqua</strong>. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur. Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+      <h3>Chapters</h3>
+    </Section>
+
+    <Section hasSidebar={false}>
+      <h5>Chapter 1: Let’s Talk AboutFrameworks</h5>
+      <p>This chapter covers the meaning of Frameworks and the <i>hidden</i> cost that usually team don't see.</p>
+    </Section>
+
+    <Section hasSidebar={false}>
+      <h5>Chapter 2: Rendering</h5>
+      <p>In this chapter, I explain how to create a rendering engine from scratch, starting from extremely simple DOM manipulation functions to a complete virtual DOM algorithm.</p>
+    </Section>
+
+    <Section hasSidebar={false}>
+      <h5>Chapter 3: Managing DOM Events</h5>
+      <p>This chapter shows some useful techniques to easily manage DOM Events.</p>
+    </Section>
+
+    <Section hasSidebar={false}>
+      <h5>Chapter 4: Web Components</h5>
+      <p>An introduction about Web Components: a set of APIs that make possible to build components without the help of third-party libraries.</p>
+    </Section>
+
+    <Section hasSidebar={false}>
+      <h5>Chapter 5: HTTP Requests</h5>
+      <p>This chapter covers different ways to make an HTTP request and managing its results.</p>
+    </Section>
+
+    <Section hasSidebar={false}>
+      <h5>Chapter 6: Routing</h5>
+      <p>In this chapter, you will learn how to create a simple routing library, using fragment identifiers or real paths.</p>
+    </Section>
+
+    <Section hasSidebar={false}>
+      <h5>Chapter 7: State Management</h5>
+      <p>This chapter is about the meaning of State Management and the different kind of patterns that you may use.</p>
+    </Section>
+
+    <Section hasSidebar={false}>
+      <h5>Chapter 8: The Right Tool For The Right Job</h5>
+      <p>This chapter covers some decision-making tools useful when you need to choose a new framework or library</p>
     </Section>
 
   </Layout>

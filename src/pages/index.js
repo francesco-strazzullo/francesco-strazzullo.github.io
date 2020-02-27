@@ -43,15 +43,9 @@ const IndexPage = () => (
       }
     >
       <h3>Book</h3>
-      <p>I'm a trainer that helps organizations to learn new tools and techinique. You can check my workshops in the link below.</p>
-
-      <ul>
-        <li><Link to='/workshop'>Frameworkless Frontend Development</Link></li>
-        <li><Link to='/workshop'>Frameworkless Frontend Development</Link></li>
-        <li><Link to='/workshop'>Frameworkless Frontend Development</Link></li>
-        <li><Link to='/workshop'>Frameworkless Frontend Development</Link></li>
-        <li><Link to='/workshop'>Frameworkless Frontend Development</Link></li>
-      </ul>
+      <p>
+        I published my first <Link to='/book'>book</Link> "Frameworkless Front-end Development" with <a href='https://www.apress.com/it/book/9781484249666'>Apress</a>. This book is about working efficiently without frameworks and choosing the right tool following the principles of the <a href='https://github.com/frameworkless-movement/manifesto'>Frameworkless Manifesto</a>.
+      </p>
       <br />
       <br />
       <br />
