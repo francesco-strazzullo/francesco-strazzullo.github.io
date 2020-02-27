@@ -6,29 +6,26 @@ import BookImage from '../components/images/bookImage'
 import StrazzImage from '../components/images/strazzImage'
 import Hero from '../components/hero'
 import Section from '../components/Section'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title='Home' />
-    <Hero title='Speaker, Trainer and Frontend Engineer' img={<HeaderImage />} />
+    <Seo title='Home' />
+    <Hero title='Speaker, Trainer and Software Engineer' img={<HeaderImage />} />
 
     <Section hasSidebar>
       <h3>Worskshops</h3>
-      <p>I'm a trainer that helps organizations to learn new tools and techinique. You can check my workshops in the link below.</p>
+      <p>I'm a trainer that helps organizations to learn new tools and techiniques. You can check my workshops in the links below.</p>
 
       <ul>
-        <li><Link to='/workshop'>Frameworkless Frontend Development</Link></li>
-        <li><Link to='/workshop'>Frameworkless Frontend Development</Link></li>
-        <li><Link to='/workshop'>Frameworkless Frontend Development</Link></li>
-        <li><Link to='/workshop'>Frameworkless Frontend Development</Link></li>
-        <li><Link to='/workshop'>Frameworkless Frontend Development</Link></li>
+        <li><Link to='/workshops/#frameworkless'>Frameworkless Frontend Development</Link></li>
+        <li><Link to='/workshop'>Decision-making for critical software decisions</Link></li>
       </ul>
     </Section>
 
     <Section hasSidebar>
       <h3>Videos</h3>
-      <p>I'm a trainer that helps organizations to learn new tools and techinique. You can check my workshops in the link below.</p>
+      <p>I really love</p>
 
       <ul>
         <li><Link to='/workshop'>Frameworkless Frontend Development</Link></li>
